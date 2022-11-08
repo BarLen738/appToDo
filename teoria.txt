@@ -1,0 +1,12 @@
+libreria para trabajar con fechas
+MOMENT
+https://cdnjs.com/libraries/moment.js
+
+API para guardar data en el navegador 
+API (Application Programming Interface)
+Las famosas APIs son construcciones disponibles en los lenguajes de programación y permiten a los desarrolladores crear funcionalidades complejas más fácilmente.
+https://developer.mozilla.org/es/docs/Learn/JavaScript/Client-side_web_APIs/Introduction
+APIs de navegadores: hacen parte de tu navegador web y son capaces de exponer datos del navegador. Esas construcciones abstraen el código más complejo, proporcionando el uso de sintaxis más simples en su lugar, semejante a lo que momentjs hace, simplificando el trabajo con fechas.
+Ir a herramientas del navegador Application, Session Storage. 
+API SessionStorage - guarda la informacion solo si la pestanha del navegador no se cierra
+API LocalStorage - guarda la informacion sin importar si cerramos la pestanha o el navegador
