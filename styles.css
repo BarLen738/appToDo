@@ -131,3 +131,32 @@ form {
   padding: 15px;
   
 }
+
+@media only screen and (max-width: 600px) {
+  .mainCard {
+    width: 65%;
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+  .inputForm {
+    width: 80%;
+  }
+
+  input[type="datetime-local" i] {
+    width: 80%;
+    align-self: center;
+  }
+
+  .btnCreate {
+    margin-top: 1.2rem
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .mainCard {
+    width: 80%;
+  }
+}
